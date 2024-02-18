@@ -1,0 +1,206 @@
+
+
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  
+  /* Jumbotron  */
+  .heroSection {
+    background-image: url(/images/HeroCaseStudyImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Jumbotron copy */
+  .heroCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+  
+  .containerStatements {
+  background-color: #9DC5CF;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.statements {
+    background-color: #C5E2EA;
+
+}
+
+.containerResearch {
+  background-color: white;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personaContainer {
+    background-color: white;
+}
+
+.persona {
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.highFidelity {
+  background-color: #9DC5CF;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#highFidelity {
+    padding:5%;
+
+}
+
+
+
+
+
+
+/** { outline: 1px solid red; }
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #373738;
+    color: white;
+    height: 30px;
+
+}
+.logo {
+    width: 100%;
+    padding: 1%;
+    text-align: left;
+    height: 50px;
+}
+
+.navigation {
+    background-color: #373738;
+    vertical-align: top;
+
+}
+
+p {
+    color: white;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    background-color: #373738;
+}
+
+ul {
+    width: 25%;
+    margin-left: auto;
+    padding: 1%;
+}
+
+.container {
+    color: #9DC5CF;
+}
+
+.col {
+   color: #C5E2EA;
+}
+
+.heroSection {
+    background-image: url(../images/HeroCaseStudyImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    text-align: center;
+  }
+.display-4 {
+    color:#313535;
+
+}
+
+.containerStatements {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  }
+
+  .user {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+
+  }
+
+  .userPersona {
+    position: absolute;
+}
+
+
+.paragraph {
+    color: black;
+}
+
+.footer {
+    margin-left: 0%;
+}
+
+footer {
+    background-color: #373738;
+    text-align: left;
+}
